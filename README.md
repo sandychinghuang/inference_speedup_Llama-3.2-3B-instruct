@@ -3,7 +3,7 @@
 ```
 git clone https://github.com/sandychinghuang/inference_speedup_Llama-3.2-3B-instruct.git
 cd inference_speedup_Llama-3.2-3B-instruct
-pip install requirments.txt
+pip install -r requirments.txt
 ```
 
 ### 使用方法
