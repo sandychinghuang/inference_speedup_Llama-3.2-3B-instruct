@@ -8,17 +8,8 @@ cd inference_speedup_Llama-3.2-3B-instruct
 ## 環境設置
 您可以使用以下指令建置環境:
 ```
-pip install huggingface-hub[cli]
 pip install torch torchvision torchaudio
-pip install transformers==4.50.3
-pip install timm==1.0.15
-pip install datasets==3.5.0
-pip install accelerate==1.6.0
-pip install gemlite==0.4.4
-pip install hqq==0.2.5
-pip install triton==3.2.0
-pip install tqdm
-pip install numpy
+pip install -r requirements.txt
 ```
 使用模型:https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct
 
