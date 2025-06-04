@@ -6,7 +6,7 @@ git clone https://github.com/sandychinghuang/inference_speedup_Llama-3.2-3B-inst
 cd inference_speedup_Llama-3.2-3B-instruct
 ```
 ## 環境設置
-您可以使用以下指令建置環境(因`requirements.txt`內部有些套間依賴torch，因此需先裝torch):
+您可以使用以下指令建置環境(因`gemlite`套件安裝依賴torch，因此需先裝requirements.txt):
 ```
 pip install -r requirements.txt
 pip install gemlite==0.4.4
