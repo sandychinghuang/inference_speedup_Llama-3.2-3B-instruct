@@ -8,7 +8,6 @@ cd inference_speedup_Llama-3.2-3B-instruct
 ## 環境設置
 您可以使用以下指令建置環境(因`requirements.txt`內部有些套間依賴torch，因此需先裝torch):
 ```
-pip install torch torchvision torchaudio
 pip install -r requirements.txt
 pip install gemlite==0.4.4
 ```
