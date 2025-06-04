@@ -11,7 +11,6 @@ cd inference_speedup_Llama-3.2-3B-instruct
 pip install torch torchvision torchaudio
 pip install -r requirements.txt
 pip install gemlite==0.4.4
-
 ```
 使用模型:https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct
 
